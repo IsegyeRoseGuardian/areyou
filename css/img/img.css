@@ -1,0 +1,41 @@
+#main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-height: 700px;  /* 원하시는 높이를 설정하세요. */
+    overflow-y: auto;   /* 스크롤 기능 추가 */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; 를 사용하면 4개의 이미지를 한 줄에 정렬할 수 있습니다. */
+}
+
+
+
+#main .img-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    /* 이미지와 동일한 크기로 설정 */
+}
+
+#main .img-container img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+#main .img-container img:hover {
+    filter: blur(5px);
+}
+
+#main .img-container .img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s ease;
+    font-size: 35px;
+}
+
+#main .img-container img:hover+.img-text {
+    opacity: 1;
+}
