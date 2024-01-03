@@ -1,0 +1,14 @@
+#list-1 a{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color:  #000000;
+}
+
+#list-2 a{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color:  #000000;
+    border-top: 1px solid #000000;
+}
