@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
 #list-1 a{
     text-align: center;
     font-size: 25px;
     text-decoration: none;
     color:  #000000;
+    font-family: 'Gamja Flower', sans-serif;
 }
 
 #list-2 a{
@@ -11,4 +14,5 @@
     text-decoration: none;
     color:  #000000;
     border-top: 1px solid #000000;
+    font-family: 'Gamja Flower', sans-serif;
 }
