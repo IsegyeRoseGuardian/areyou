@@ -1,0 +1,62 @@
+#shortcut {
+    position: absolute;
+    top: 150px; /* 상단에 고정 */
+    width: 1480px;
+    height: 100px;
+    background-color: rgb(28, 224, 198);
+}
+
+#topic {
+    position: absolute;
+    top: 250px; /* shortcut 아래에 위치하게 하기 위해 */
+    width: 1480px;
+    height: 600px;
+    background-color: brown;
+    overflow-y: auto;   /* 스크롤 기능 추가 */
+}
+
+#shortcut a {
+    text-decoration: none;
+    text-align: center;
+}
+
+#topic1 {
+    background-color: red;
+    width: 1480px;
+    height: 200px;
+}
+
+#topic2 {
+    background-color: rgb(0, 255, 85);
+    margin-top: 30px;
+    width: 1480px;
+    height: 200px;
+}
+
+#topic3 {
+    background-color: yellow;
+    margin-top: 30px;
+    width: 1480px;
+    height: 200px;
+}
+
+#topic4 {
+    background-color: green;
+    margin-top: 30px;
+    width: 1480px;
+    height: 200px;
+}
+
+#topic5 {
+    background-color: blue;
+    margin-top: 30px;
+    width: 1480px;
+    height: 200px;
+}
+
+#topic6 {
+    background-color: purple;
+    margin-top: 30px;
+    width: 1480px;
+    height: 200px;
+}
