@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+#nav-title a {
+    text-align: center;
+    font-size: 100px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Gamja Flower', sans-serif;
+}
