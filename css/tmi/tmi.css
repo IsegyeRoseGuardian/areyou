@@ -35,6 +35,20 @@
     border-left: 0px;
 }
 
+.topic1-subject{
+    font-size: 30px;
+}
+
+.topic1-line{
+    width: auto;
+    height: 3px;
+    background-color: blue;
+}
+
+.topic1-main {
+    font-size: 25px;
+}
+
 #topic2 {
     background-color: transparent;
     margin-top: 30px;
