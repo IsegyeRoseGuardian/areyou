@@ -40,7 +40,7 @@
 }
 
 .topic1-line{
-    width: auto;
+    width: 1450px;
     height: 3px;
     background-color: blue;
 }
@@ -88,8 +88,9 @@
 #topic6 {
     background-color: transparent;
     margin-top: 30px;
-    width: 1460px;
+    width: 1455px;
     height: 200px;
     border-style: solid;
     border-left: 0px;
+    border-bottom: 0px;
 }
