@@ -12,6 +12,7 @@
 }
 
 #shortcut {
+    height: 700px;
     text-align: center;
     text-decoration: none;
     border-style: solid;
@@ -19,11 +20,18 @@
     width: 1455px;
     border-top: 0px;
     border-left: 0px;
+    font-size: 45px;
 }
 
 #shortcut a{
     color: black;
     text-decoration: none;
+}
+
+#shortcut-id hr{
+    width: 1000px;
+    height: 5px;
+    background-color: black;
 }
 
 #topic1 {
@@ -46,6 +54,62 @@
 }
 
 .topic1-main {
+    font-size: 25px;
+}
+
+.topic2-subject{
+    font-size: 30px;
+}
+
+.topic2-line{
+    width: 1450px;
+    height: 3px;
+    background-color: blue;
+}
+
+.topic2-main {
+    font-size: 25px;
+}
+
+.topic3-subject{
+    font-size: 30px;
+}
+
+.topic3-line{
+    width: 1450px;
+    height: 3px;
+    background-color: blue;
+}
+
+.topic3-main {
+    font-size: 25px;
+}
+
+.topic4-subject{
+    font-size: 30px;
+}
+
+.topic4-line{
+    width: 1450px;
+    height: 3px;
+    background-color: blue;
+}
+
+.topic4-main {
+    font-size: 25px;
+}
+
+.topic5-subject{
+    font-size: 30px;
+}
+
+.topic5-line{
+    width: 1450px;
+    height: 3px;
+    background-color: blue;
+}
+
+.topic5-main {
     font-size: 25px;
 }
 
@@ -94,3 +158,4 @@
     border-left: 0px;
     border-bottom: 0px;
 }
+
