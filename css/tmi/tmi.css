@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Gamja+Flower&display=swap');
+
 #topic {
     position: absolute;
     top: 150px;
@@ -20,15 +23,16 @@
     width: 1455px;
     border-top: 0px;
     border-left: 0px;
-    font-size: 45px;
+    font-size: 70px;
+    font-family: 'Dongle', sans-serif;
 }
 
-#shortcut a{
+#shortcut a {
     color: black;
     text-decoration: none;
 }
 
-#shortcut-id hr{
+#shortcut-id hr {
     width: 1000px;
     height: 5px;
     background-color: black;
@@ -43,74 +47,89 @@
     border-left: 0px;
 }
 
-.topic1-subject{
-    font-size: 30px;
+.topic1-subject {
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
 }
 
-.topic1-line{
+.topic1-line {
     width: 1450px;
     height: 3px;
-    background-color: blue;
+    background-color: gray;
 }
 
 .topic1-main {
-    font-size: 25px;
-}
-
-.topic2-subject{
     font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Gamja Flower', sans-serif;
 }
 
-.topic2-line{
+.topic2-subject {
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+}
+
+.topic2-line {
     width: 1450px;
     height: 3px;
-    background-color: blue;
+    background-color: gray;
 }
 
 .topic2-main {
-    font-size: 25px;
-}
-
-.topic3-subject{
     font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Gamja Flower', sans-serif;
 }
 
-.topic3-line{
+.topic3-subject {
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+}
+
+.topic3-line {
     width: 1450px;
     height: 3px;
-    background-color: blue;
+    background-color: gray;
 }
 
 .topic3-main {
-    font-size: 25px;
-}
-
-.topic4-subject{
     font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Gamja Flower', sans-serif;
 }
 
-.topic4-line{
+.topic4-subject {
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+}
+
+.topic4-line {
     width: 1450px;
     height: 3px;
-    background-color: blue;
+    background-color: gray;
 }
 
 .topic4-main {
-    font-size: 25px;
-}
-
-.topic5-subject{
     font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Gamja Flower', sans-serif;
 }
 
-.topic5-line{
+.topic5-subject {
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+}
+
+.topic5-line {
     width: 1450px;
     height: 3px;
-    background-color: blue;
+    background-color: gray;
 }
 
 .topic5-main {
-    font-size: 25px;
+    font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Gamja Flower', sans-serif;
 }
 
 #topic2 {
@@ -158,4 +177,3 @@
     border-left: 0px;
     border-bottom: 0px;
 }
-
