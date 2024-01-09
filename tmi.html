@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <title>Are you 유랑?</title>
     <link rel="shortcut icon" type="image/x-icon" href="./img/알유/쿵유.png">
-    <link rel="stylesheet" href="./css/tmi/index.css">
-    <link rel="stylesheet" href="./css/tmi/nav.css">
-    <link rel="stylesheet" href="./css/tmi/category.css">
-    <link rel="stylesheet" href="./css/tmi/logo.css">
-    <!-- tmi -->
+    <link rel="stylesheet" href="./css/main/index.css">
+    <link rel="stylesheet" href="./css/main/nav.css">
+    <link rel="stylesheet" href="./css/main/category.css">
+    <link rel="stylesheet" href="./css/main/logo.css">
+    <link rel="stylesheet" href="./css/main/main.css">
     <link rel="stylesheet" href="./css/tmi/tmi.css">
-
 </head>
 
 <body>
@@ -41,35 +40,20 @@
         </div>
         <div id="contents">
             <div id="main">
-                <!-- ... 중간 내용 ... -->
+                <div id="subject">
+                    <p ㅊcl>주제 선택</p>
+                    <form action="">
+                        <select id="select-topic" name="select-topic">
+                            <option value="#topic1">1번주제: 알유 방송은 비밀</option>
+                            <option value="#topic2">2번주제: 알유는 외국 거주중</option>
+                            <option value="#topic3">3번주제: 알유는 둘기</option>
+                            <option value="#topic4">4번주제: 알유 게임 실력</option>
+                            <option value="#topic5">5번주제: 알유의 방송 시간</option>
+                            <option value="#topic6">6번주제: (작성중)</option>
+                        </select>
+                    </form>
+                </div>
                 <div id="topic">
-                    <div id="shortcut">
-                        <a href="#topic1">1번주제: 알유 방송은 비밀</a>
-                        <div id="shortcut-id">
-                            <hr>
-                        </div>
-                        <a href="#topic2">2번주제: 알유는 외국 거주중</a>
-                        <div id="shortcut-id">
-                            <hr>
-                        </div>
-                        <a href="#topic3">3번주제: 알유는 둘기</a>
-                        <div id="shortcut-id">
-                            <hr>
-                        </div>
-                        <a href="#topic4">4번주제: 알유 게임 실력</a>
-                        <div id="shortcut-id">
-                            <hr>
-                        </div>
-                        <a href="#topic5">5번주제: 알유의 방송 시간</a>
-                        <div id="shortcut-id">
-                            <hr>
-                        </div>
-                        <a href="#topic6">6번주제: (작성중)</a>
-                        <div id="shortcut-id">
-                            <hr>
-                        </div>
-                    </div>
-                    <!-- ... 중간 내용 ... -->
                     <div id="topic1">
                         <p class="topic1-subject">1번 주제: 알유 방송은 비밀</p>
                         <hr class="topic1-line">
@@ -77,7 +61,6 @@
                         <p class="topic1-main">그래서 가끔 방 밖의 소리가 들리면 알유도 함께 조용하여 진다.</p>
                         <p class="topic1-main">이렇게 가족이 뜨고 알유 방송에 정적이 흐르는 동안에 쓸 수 있는 빨간 버튼 이모티콘이 존재한다.</p>
                     </div>
-                    <!-- ... 중간 내용 ... -->
                     <div id="topic2">
                         <p class=topic2-subject>2번주제: 알유는 외국 거주중</p>
                         <hr class="topic2-line">
@@ -85,7 +68,6 @@
                         <p class="topic2-main">그래서 가끔 한국말을 잘 못한다.</p>
                         <p class="topic2-main">그래도 가끔 영어 하는 알유를 보면 사람이 달라져 보인다.</p>
                     </div>
-                    <!-- ... 중간 내용 ... -->
                     <div id="topic3">
                         <p class=topic3-subject>3번주제: 알유는 둘기</p>
                         <hr class="topic3-line">
@@ -93,7 +75,6 @@
                         <p class="topic3-main">알유는 아이네를 매우 좋아한다.</p>
                         <p class="topic3-main">아이네 특이한 목소리 톤을 알유가 따라하기도 한다.</p>
                     </div>
-                    <!-- ... 중간 내용 ... -->
                     <div id="topic4">
                         <p class=topic4-subject>4번주제: 알유 게임 실력</p>
                         <hr class="topic4-line">
@@ -101,7 +82,6 @@
                         <p class="topic4-main">하지만 알유 방송을 조금이라도 본 시청자는 그 말이 거짓말 이라는 것을 알 수 있다.</p>
                         <p class="topic4-main">이 글을 본 알유는 분명 반박할 텐데 알유의 전적을 본 시청자는 모두 납득할 것이다.</p>
                     </div>
-                    <!-- ... 중간 내용 ... -->
                     <div id="topic5">
                         <p class=topic5-subject>5번주제: 알유의 방송 시간</p>
                         <hr class="topic5-line">
@@ -109,21 +89,32 @@
                         <p class="topic5-main">하지만 방송시간이 지켜지는 날이 거의 없다.</p>
                         <p class="topic5-main">회사도 지각했다는 걸 보면 알유는 항상 잘 늦는 거 같다.</p>
                     </div>
-                    <!-- ... 중간 내용 ... -->
                     <div id="topic6">
                         <p>6번 주제</p>
                         <p>6번 주제의 내용입니다.(작성중)</p>
                     </div>
                 </div>
+
             </div>
         </div>
         <footer>
             <a href="https://www.youtube.com/@RU_Areyou">유튜브</a>
             <a href="https://www.youtube.com/@areyou2000">다시보기</a>
             <a href="https://www.twitch.tv/areyou2000">트위치</a>
-            <a href="https://cafe.naver.com/withareyou">네이버 카페</a>
+            <a href="https://tgd.kr/s/areyou2000">트게더</a>
         </footer>
+
     </div>
+    <!-- JS -->
+    <script>
+        document.getElementById('select-topic').onchange = function () {
+            var selectedOption = this.options[this.selectedIndex];
+            var topicId = selectedOption.value.substring(1);
+            var targetTopic = document.getElementById(topicId);
+            targetTopic.scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+
 </body>
 
 </html>
