@@ -174,3 +174,28 @@
     font-family: 'Dongle', sans-serif;
     font-family: 'Gamja Flower', sans-serif;
 }
+
+.topic6-subject {
+    font-family: 'Dongle', sans-serif;
+    font-size: 70px;
+}
+
+.topic6-line {
+    width: 1450px;
+    height: 3px;
+    background-color: gray;
+}
+
+.topic6-main {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Gamja Flower', sans-serif;
+}
+
+.topic6-main-a {
+    margin-top: 20px;
+    font-size: 60px;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Gamja Flower', sans-serif;
+}

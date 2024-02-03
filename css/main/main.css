@@ -36,7 +36,7 @@
     border-top: 0px;
 }
 
-#prfile table,
+#profile table,
 th,
 td {
     border: 1px solid;
@@ -46,7 +46,7 @@ td {
 #profile table {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 td.color{
