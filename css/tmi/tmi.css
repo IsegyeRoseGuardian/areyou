@@ -90,6 +90,15 @@
     border-top: 0px;
 }
 
+#topic7 {
+    width: 1455px;
+    height: 600px;
+    border-style: solid;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
 .topic1-subject {
     font-family: 'Dongle', sans-serif;
     font-size: 70px;
