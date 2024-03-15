@@ -1,12 +1,12 @@
 #list {
     width: 250px;
     height: auto;
-    border: 2px;
+    border: 1px;
     margin-top: 4%;
     margin-left: 3%;
     margin-bottom: auto;
     border-style: solid;
-    border-color: blueviolet;
+    border-color: rgb(36, 36, 129);
     float: left;
 }
 
@@ -27,17 +27,27 @@ td {
 }
 
 #list-1 {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 2%;
 }
 
 #list-y {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 1.5%;
     margin-top: 1.8%;
 }
 
 #list-x {
-    font-size: 20px;
-    margin-left: 5%;
+    font-size: 18px;
+    margin-left: 11%;
+}
+
+#list-y a{
+    text-decoration: none;
+    color: blue;
+}
+
+#list-x a{
+    text-decoration: none;
+    color: blue;
 }

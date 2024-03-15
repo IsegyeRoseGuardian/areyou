@@ -4,6 +4,12 @@
     height: 600px;
 }
 
+#main-text1{
+    font-size: 25px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
 #개요image {
     text-align: center;
 }
@@ -20,3 +26,4 @@
     border-color: rgb(36, 36, 129);
     background-color: rgb(36, 36, 129);
 }
+

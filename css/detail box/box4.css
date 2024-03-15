@@ -3,12 +3,24 @@
     height: auto;
 }
 
+#main-text4-1{
+    font-size: 25px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#main-text4-2{
+    font-size: 25px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
 #box4-1 {margin-top: 3%;
     width: auto;
-    height: 600px;
+    height: 300px;
 }
 
 #box4-2 {margin-top: 3%;
     width: auto;
-    height: 600px;
+    height: 300px;
 }
