@@ -1,52 +1,61 @@
-#box3 {margin-top: 3%;
+#box3 {
+    margin-top: 3%;
     width: auto;
     height: auto;
 }
 
-#main-text3-1{
+#main-text3-1 {
     font-size: 25px;
     margin-left: 3%;
     margin-right: 3%;
 }
 
-#main-text3-1-line{
+#main-text3-1-line {
     margin-bottom: 0.6%;
 }
 
-#main-text3-2{
+#main-text3-2 {
     font-size: 25px;
     margin-left: 3%;
     margin-right: 3%;
 }
 
-#main-text3-3{
+#main-text3-2-line {
+    margin-bottom: 0.6%;
+}
+
+#main-text3-3 {
     font-size: 25px;
     margin-left: 3%;
     margin-right: 3%;
 }
 
-#main-text3-4{
+#main-text3-4 {
     font-size: 25px;
     margin-left: 3%;
     margin-right: 3%;
 }
 
-#box3-1 {margin-top: 3%;
+#box3-1 {
+    margin-top: 3%;
     width: auto;
     height: 600px;
 }
 
-#box3-2 {margin-top: 3%;
+#box3-2 {
+    margin-top: 3%;
     width: auto;
     height: 600px;
 }
 
-#box3-3 {margin-top: 3%;
+#box3-3 {
+    margin-top: 3%;
     width: auto;
     height: 700px;
 }
 
-#box3-4 {margin-top: 3%;
+#box3-4 {
+    margin-top: 3%;
     width: auto;
-    height: 600px;
+    height: 300px;
 }

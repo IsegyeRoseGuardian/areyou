@@ -9,6 +9,10 @@
     margin-right: 3%;
 }
 
+#main-text2-1-line{
+    margin-bottom: 0.6%;
+}
+
 #main-text2-2{
     font-size: 25px;
     margin-left: 3%;
@@ -34,15 +38,15 @@
 
 #box2-2 {margin-top: 3%;
     width: auto;
-    height: 600px;
+    height: 300px;
 }
 
 #box2-3 {margin-top: 3%;
     width: auto;
-    height: 600px;
+    height: 300px;
 }
 
 #box2-4 {margin-top: 3%;
     width: auto;
-    height: 600px;
+    height: 300px;
 }
