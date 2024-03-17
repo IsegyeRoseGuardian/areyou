@@ -1,26 +1,51 @@
-#box4 {margin-top: 3%;
+#box4 {
+    margin-top: 3%;
     width: auto;
-    height: auto;
+    height: 500px;
 }
 
-#main-text4-1{
+#main-text4 {
     font-size: 25px;
     margin-left: 3%;
     margin-right: 3%;
 }
 
-#main-text4-2{
+#main-text4-line {
+    margin-bottom: 0.6%;
+}
+
+#box4-1 {
+    margin-top: 3%;
+    width: auto;
+    height: 300px;
+}
+
+#main-text4-1 {
     font-size: 25px;
     margin-left: 3%;
     margin-right: 3%;
 }
 
-#box4-1 {margin-top: 3%;
+#box4-2 {
+    margin-top: 3%;
+    width: auto;
+    height: 850px;
+}
+
+#main-text4-2 {
+    font-size: 25px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#box4-3 {
+    margin-top: 3%;
     width: auto;
     height: 300px;
 }
 
-#box4-2 {margin-top: 3%;
-    width: auto;
-    height: 300px;
+#main-text4-3 {
+    font-size: 25px;
+    margin-left: 3%;
+    margin-right: 3%;
 }

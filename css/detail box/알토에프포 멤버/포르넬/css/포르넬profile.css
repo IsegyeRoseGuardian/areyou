@@ -1,0 +1,19 @@
+.explain-fornell{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    border: solid;
+    border: 1.3px;
+    font-size: 20px;
+}
+
+.td-left-fornell{
+    font-size: 26px;
+    text-align: center;
+    background-color: yellow;
+}
+
+.fornell-td{
+    font-size: 26px;
+    text-align: center;
+}

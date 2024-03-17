@@ -21,34 +21,3 @@
     border-color: rgb(36, 36, 129);
     float: right;
 }
-
-td {
-    text-align: center;
-}
-
-#list-1 {
-    font-size: 20px;
-    margin-bottom: 2%;
-    margin-top: 1%;
-}
-
-#list-y {
-    font-size: 18px;
-    margin-left: 1.5%;
-    margin-top: 1.8%;
-}
-
-#list-x {
-    font-size: 18px;
-    margin-left: 11%;
-}
-
-#list-y a{
-    text-decoration: none;
-    color: blue;
-}
-
-#list-x a{
-    text-decoration: none;
-    color: blue;
-}
