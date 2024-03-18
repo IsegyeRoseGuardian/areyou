@@ -1,0 +1,19 @@
+.explain-detore{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    border: solid;
+    border: 1.3px;
+    font-size: 20px;
+}
+
+.td-left-detore{
+    font-size: 26px;
+    text-align: center;
+    background-color: skyblue;
+}
+
+.detore-td{
+    font-size: 26px;
+    text-align: center;
+}
