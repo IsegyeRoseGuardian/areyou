@@ -1,4 +1,4 @@
-#allground{
+#allground {
     height: 100%;
     width: 100%;
     background-color: rgb(224, 215, 215);
@@ -7,7 +7,7 @@
     border-bottom: 0px;
 }
 
-#top{
+#top {
     width: 100%;
     height: 70px;
     border: 2px;
@@ -17,8 +17,8 @@
     background-color: rgb(36, 36, 129);
 }
 
-#content{
-    width: 71%;
+#content {
+    width: 80%;
     height: auto;
     border: 2px;
     border-style: solid;
@@ -29,3 +29,19 @@
     border-radius: 40px 40px 40px 40px;
 }
 
+#fixed-top {
+    width: auto;
+    height: 60px;
+    margin-top: 85px;
+    margin-left: 70px;
+    float: left;
+    display: flex;
+    position: fixed;
+    background-color: rgb(36, 36, 129);
+}
+
+#fixed-top a {
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
