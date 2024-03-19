@@ -6,6 +6,7 @@
 #new-notice-list{
     border: 2px solid;
     width: 350px;
+    border-color: rgb(36, 36, 129);
 }
 
 #new-notice-text{
