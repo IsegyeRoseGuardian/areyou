@@ -3,7 +3,14 @@
     text-decoration: underline;
 }
 
-#new-notice li{
+#new-notice-list{
+    border: 2px solid;
+    width: 300px;
+}
+
+#new-notice-text{
+    margin-left: 2%;
+    margin-bottom: 0.2%;
     font-size: 20px;
     font-weight: bold;
 }
