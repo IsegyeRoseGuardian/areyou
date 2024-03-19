@@ -10,6 +10,16 @@
     float: left;
 }
 
+#new-notice{
+    width: 700px;
+    height: auto;
+    border: 1px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: auto;
+    float: left;
+}
+
 #profile {
     width: 35%;
     height: auto;

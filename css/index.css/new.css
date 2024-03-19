@@ -1,0 +1,21 @@
+#new-notice label{
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+#new-notice li{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#new-notice-check-btn {
+    display: none;
+}
+
+#new-notice-check-btn:checked~.new-notice-menubars {
+    display: block;
+}
+
+.new-notice-menubars {
+    display: none;
+}
