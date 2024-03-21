@@ -10,12 +10,16 @@
     margin-right: 3%;
 }
 
+#main-text5-2-line {
+    margin-top: 1.5%;
+}
+
 #main-text5-2 table {
     border: 2px solid;
     margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 95%;
     height: 600px;
 }
 
