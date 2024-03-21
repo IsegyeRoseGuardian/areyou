@@ -25,6 +25,10 @@
     font-size: 20px;
 }
 
+#fornell-profile table{
+    width: 65%;
+}
+
 .td-left-fornell{
     font-size: 26px;
     text-align: center;

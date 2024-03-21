@@ -25,6 +25,10 @@
     font-size: 20px;
 }
 
+#detore-profile table{
+    width: 65%;
+}
+
 .td-left-detore{
     font-size: 26px;
     text-align: center;

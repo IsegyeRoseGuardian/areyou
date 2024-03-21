@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/index.css/top.css">
     <!-- 위칸 -->
     <link rel="stylesheet" href="./css/index.css/content.css">
+    <link rel="stylesheet" href="./css/index.css/sidelist.css">
     <link rel="stylesheet" href="./css/index.css/subject.css">
     <link rel="stylesheet" href="./css/index.css/list.css">
     <link rel="stylesheet" href="./css/index.css/profile.css">
@@ -50,6 +51,33 @@
         <!-- 위로 올라가기 버튼 -->
         <div id="fixed-top">
             <a href="javascript:window.scrollTo(0,0);">▲</a>
+        </div>
+        <!-- side-list -->
+        <div id="side-list">
+            <form>
+                <select name="subject" id="subject-select" onchange="if(this.value) location=(this.value)">
+                    <option value="javascript:window.scrollTo(0,0);">목차 이동</option>
+                    <option value="#box1" class="select-bold">1. 개요</option>
+                    <option value="#box2" class="select-bold">2. 캐릭터</option>
+                    <option value="#box2-1" class="select-size">2-1. 취향</option>
+                    <option value="#box2-2" class="select-size">2-2. 성격</option>
+                    <option value="#box2-3" class="select-size">2-3. 목소리</option>
+                    <option value="#box2-4" class="select-size">2-4. 별명</option>
+                    <option value="#box3" class="select-bold">3. 개인 활동</option>
+                    <option value="#box3-1" class="select-size">3-1. 방송밈</option>
+                    <option value="#box3-2" class="select-size">3-2. 방송 장비</option>
+                    <option value="#box3-3" class="select-size">3-3. 플레이한 게임</option>
+                    <option value="#box3-4" class="select-size">3-4. 노래</option>
+                    <option value="#box4" class="select-bold">4. 알토에프포</option>
+                    <option value="#box4-1" class="select-size">4-1. 데토리</option>
+                    <option value="#box4-2" class="select-size">4-2. 포르넬</option>
+                    <option value="#box4-3" class="select-size">4-3. 컨텐츠</option>
+                    <option value="#box5" class="select-bold">5. 기타</option>
+                    <option value="#box5-1" class="select-size">5-1. 유랑</option>
+                    <option value="#box5-2" class="select-size">5-2. 스케쥴</option>
+                    <option value="#box6" class="select-bold">6. 여담</option>
+                </select>
+            </form>
         </div>
         <!-- 제목 -->
         <div id="top">
@@ -175,6 +203,8 @@
                             <div id="new-notice-text">· 스케쥴 업데이트</div>
                             <div id="new-notice-text">· 방송밈 업데이트</div>
                             <div id="new-notice-text">· 여담 업데이트</div>
+                            <div id="new-notice-text">· 취향 업데이트</div>
+                            <div id="new-notice-text">· 왼쪽 사이트 목차 이동 추가</div>
                         </div>
                     </ul>
                 </div>
@@ -211,6 +241,7 @@
                         <div id="main-text2-1-line">· 아이네를 굉장히 좋아한다. 한국의 대중가요에 대해서 잘 알고 있다. </div>
                         <div id="main-text2-1-line">· 카스2와 레인보우 식스를 굉장히 좋아한다.</div>
                         <div id="main-text2-1-line">· 로맨스 악귀이다. 로맨스와 관련된 이야기가 나오면 스스로 마무리를 짓지 못한다.</div>
+                        <div id="main-text2-1-line">· 얼린 포도가 최애 간식이라고 한다. 방송을 진행하며 많이 먹는 간식이다.</div>
                     </div>
                 </div>
                 <div id="box2-2">
@@ -342,7 +373,7 @@
                         <div id="main-text4-line">리더: 알유</div>
                         <div id="main-text4-line">결성: 데토리가 셋을 방송을 같이 하기 위해 모았다. 케미를 생각해서 모았다고 한다.</div>
                         <div id="main-text4-line"><a href="https://www.youtube.com/@AlTo-Fo">
-                                <div id="AlTo-Fo-youtube">알토에프포(유튜브)</div>
+                                <div id="AlTo-Fo-youtube">알토에프포 유튜브</div>
                             </a></div>
                     </div>
                 </div>
@@ -587,8 +618,7 @@
                         <div id="main-text6-line">· 옌룡과의 관계: 옌룡과 2차례 합방을 진행할 정도로 가꾸운 관계이다. 2번째 합방에는 현실 합방을 하였다. 현실 합방 때 알유가 싱가포르 산다는 것을 공식적으로 발표하였다.</div>
                         <div id="main-text6-line">· 잘하는 게임을 찾기 정말 어렵다.</div>
                         <div id="main-text6-line">· 지각을 자주한다. 지각을 너무 자주하여서 지각 벌칙이 생겼다.</div>
-                        <div id="main-text6-line"><div id="엄크">· 방송을 가족 몰래 하고 있다고 한다. 그래서 방송 중에 자주 엄크가 발생한다. 비상 버튼은 엄크가 발생했을 때 많이 사용된다. </div></div>
-                        <div id="main-text6-line">· 얼린 포도가 최애 간식이라고 한다. 방송을 진행하며 많이 먹는 간식이다.</div>
+                        <div id="main-text6-line"><div id="엄크">· 방송을 가족 몰래 하고 있다. 그래서 방송 중에 자주 엄크가 발생한다. 비상 버튼은 엄크가 발생했을 때 많이 사용된다. </div></div>
                     </div>
                 </div>
             </div>

@@ -35,7 +35,6 @@
     margin-top: 113px;
     margin-left: 70px;
     float: left;
-    display: flex;
     position: fixed;
     background-color: rgb(36, 36, 129);
 }
