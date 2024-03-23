@@ -2,19 +2,19 @@
     width: 170px;
     height: 100px;
     margin-top: 180px;
-    margin-left: 0.1%;
     position: fixed;
 }
 
 #side-list select{
     text-align: center;
-    font-size: 19px;
+    font-size: 123%;
 }
 
 .select-bold{
+    font-size: 123%;
     font-weight: bold;
 }
 
 .select-size{
-    font-size: 17px;
+    font-size: 110%;
 }
