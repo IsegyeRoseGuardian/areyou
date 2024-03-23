@@ -11,10 +11,7 @@
 #detail{
     width: 90%;
     height: auto;
-    border: 2px;
-    border-style: solid;
-    border-color: transparent;
-    margin-top: 8%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
 }
