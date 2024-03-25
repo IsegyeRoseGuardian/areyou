@@ -1,21 +1,54 @@
 #side-list{
-    width: 170px;
-    height: 100px;
-    margin-top: 180px;
-    margin-left: 0.4%;
+    width: 200px;
+    height: 800px;
+    margin-top: 110px;
     position: fixed;
+    padding: 10px; /* 내부 여백 추가 */
+    right: 4px;
 }
 
-#side-list select{
+.side-list-item {
+    display: flex; /* Flexbox 레이아웃 사용 */
+    align-items: center; /* 수직 중앙 정렬 */
+    justify-content: flex-start; /* 자식 요소들을 왼쪽으로 정렬 */
+    flex-direction: row-reverse; /* 자식 요소들의 순서를 반대로 배치 */
+    margin-bottom: 5px;
+}
+
+.side-list-title {
+    font-size: 10px;
+    margin-left: 20px; /* .side-list-text와의 간격 조정 */
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+
+.side-list-text {
+    height: auto;
+    width: auto;
+    border: 2px solid;
+    border-radius: 6px;
+    background-color: rgb(36, 36, 129);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.3s linear;
+}
+
+.side-list-text a {
+    text-decoration: none;
     text-align: center;
-    font-size: 110%;
+    font-size: 16px;
+    color: white;
 }
 
-.select-bold{
-    font-size: 110%;
-    font-weight: bold;
+#side-list:hover .side-list-title {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
 }
 
-.select-size{
-    font-size: 90%;
+#side-list:hover .side-list-text {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
 }

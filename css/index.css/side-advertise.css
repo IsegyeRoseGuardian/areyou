@@ -1,0 +1,40 @@
+#ad1-img{
+    float: left;
+    margin-top: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 400px;
+    position: fixed;
+    border: 2px  solid black;
+}
+
+#ad1-QR{
+    margin-top: 243px;
+    margin-left: 155px;
+    position: fixed;
+}
+
+#ad1-QR img{
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    transition: all 0.2s linear;
+    border: 2px solid;
+}
+
+#ad1-QR:hover img{
+
+    transform: translate(643px, 165px) scale(10);
+}
+
+#ad2{
+    float: left;
+    margin-top: 550px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    border: 2px  solid black;
+}
