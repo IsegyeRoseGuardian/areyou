@@ -1,7 +1,7 @@
 #side-list{
     width: 200px;
     height: 800px;
-    margin-top: 110px;
+    margin-top: 105px;
     position: fixed;
     padding: 10px; /* 내부 여백 추가 */
     right: 4px;
@@ -16,7 +16,7 @@
 }
 
 .side-list-title {
-    font-size: 10px;
+    font-size: 9px;
     margin-left: 20px; /* .side-list-text와의 간격 조정 */
     opacity: 0;
     visibility: hidden;
@@ -27,7 +27,7 @@
     height: auto;
     width: auto;
     border: 2px solid;
-    border-radius: 6px;
+    border-radius: 5px;
     background-color: rgb(36, 36, 129);
     opacity: 0;
     visibility: hidden;
@@ -37,7 +37,7 @@
 .side-list-text a {
     text-decoration: none;
     text-align: center;
-    font-size: 16px;
+    font-size: 17px;
     color: white;
 }
 

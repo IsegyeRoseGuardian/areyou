@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./css/index.css/list.css">
     <link rel="stylesheet" href="./css/index.css/profile.css">
     <link rel="stylesheet" href="./css/index.css/new.css">
+    <link rel="stylesheet" href="./css/index.css/move.css">
     <!-- 아래칸 -->
     <link rel="stylesheet" href="./css/index.css/detail.css">
     <!-- 1 -->
@@ -51,10 +52,6 @@
 
 <body>
     <div id="allground">
-        <!-- 위로 올라가기 버튼 -->
-        <div id="fixed-top">
-            <a href="javascript:window.scrollTo(0,0);">▲</a>
-        </div>
         <!-- side-advertise -->
         <div id="side-advertise">
             <div id="ad1">
@@ -67,6 +64,10 @@
         </div>
         <!-- side-list -->
         <div id="side-list">
+            <div class="side-list-item">
+                <p class="side-list-title">▲</p>
+                <div class="side-list-text"><a href="javascript:window.scrollTo(0,0);">▲</a></div>
+            </div>
             <div class="side-list-item">
                 <p class="side-list-title">●</p>
                 <div class="side-list-text"><a href="#box1">1. 개요</a></div>
@@ -150,6 +151,10 @@
             <div class="side-list-item">
                 <p class="side-list-title">●</p>
                 <div class="side-list-text"><a href="#box6">6. 여담</a></div> <!-- 링크 내용 수정 -->
+            </div>
+            <div class="side-list-item">
+                <p class="side-list-title">▼</p>
+                <div class="side-list-text"><a href="javascript:window.scrollTo(0,10000000);">▼</a></div> <!-- 링크 내용 수정 -->
             </div>
         </div>
         <!-- 제목 -->
@@ -269,13 +274,17 @@
                 <!-- new -->
                 <div id="new-notice">
                     <input id="new-notice-check-btn" type="checkbox" />
-                    <label for="new-notice-check-btn">업데이트 보기←클릭</label>
+                    <label for="new-notice-check-btn">공지◀클릭</label>
                     <ul class="new-notice-menubars">
                         <div id="new-notice-list">
-                            <div id="new-notice-text">· 왼쪽 사이드 광고 업데이트 <br> (QR코드에 마우스를 가져가게 된다면?)</div>
-                            <div id="new-notice-text">· 사이드 목차 이동 작동 방법 변경 <br> (마우스 오른쪽 끝으로)</div>
+                            <div id="new-notice-text">· 왼쪽 사이드 광고 업데이트 (QR코드에 마우스를 가져가게 된다면?)</div>
+                            <div id="new-notice-text">· 사이드 목차 이동 작동 방법 변경 (마우스 오른쪽 끝으로)</div>
                             <div id="new-notice-text">· 유랑 갤러리 업데이트</div>
                             <div id="new-notice-text">· 알유 갤러리 업데이트</div>
+                            <br>
+                            <div id="new-notice-text" style="color: red;">· 기술력 이슈로 사이트는 꼭 전체화면으로 봐주세요.</div>
+                            <div id="new-notice-text" style="color: red;">· 전체 화면 후 F11를 누른 상태가 제일 깔끔합니다.</div>
+                            <div id="new-notice-text" style="color: red;">· 1920x1080 해상도를 기준으로 제작된 사이트입니다.</div>
                         </div>
                     </ul>
                 </div>

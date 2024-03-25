@@ -29,18 +29,4 @@
     border-radius: 40px 40px 40px 40px;
 }
 
-#fixed-top {
-    width: 50px;
-    height: 57px;
-    margin-top: 45%;
-    margin-left: 4.6%;
-    position: fixed;
-    background-color: rgb(36, 36, 129);
-}
-
-#fixed-top a {
-    font-size: 50px;
-    text-decoration: none;
-    color: white;
-}
 
