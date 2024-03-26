@@ -47,3 +47,11 @@
     background-color: rgba(0, 0, 255, 0.558);
     font-weight: 700;
 }
+
+.undefined {
+    font-size: 26px;
+    padding: 0.4%;
+    text-align: center;
+    background-color: rgba(119, 0, 255, 0.558);
+    font-weight: 700;
+}
