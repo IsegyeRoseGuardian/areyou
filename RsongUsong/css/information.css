@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
+
+
+.information_box .title_box {
+    width: 316px;
+    height: 36px;
+    text-align: center;
+    font-size: 130%;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.information_box .singer_box {
+    width: 316px;
+    height: 36px;
+    text-align: center;
+    font-size: 130%;
+    font-family: "Gaegu", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}

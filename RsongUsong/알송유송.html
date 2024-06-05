@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/information.css">
+    <link rel="stylesheet" href="css/control.css">
+    <link rel="shortcut icon" href="/icon/myicon.ico" type="image/x-icon">
+    <title>알송유송</title>
+</head>
+
+<body>
+    <div id="phone">
+        <div class="phone_img">
+            <img src="img/phone.png" alt="">
+        </div>
+        <div class="img_box">
+            <img id="song-image" src="img/초절정귀여워알유 [#超絶かわいい HoneyWorks  Korean Cover].jpg" alt="">
+        </div>
+        <div class="information_box">
+            <div class="title_box" id="song-title"></div>
+            <div class="singer_box" id="song-artist"></div>
+        </div>
+        <div class="bar">
+            <div class="time_slider">
+                <input type="range" id="time-slider" min="0" max="100" value="0" style="width:100%;" onchange="seekSong()">
+            </div>            
+        </div>
+        <div class="time">
+            <span id="current-time">00:00</span> / <span id="duration">00:00</span>
+        </div>
+        
+        <div class="control_box">
+            <div class="mix" onclick="playRandomSong()">
+                <img src="icon/shuffle_on_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            </div>
+            <div class="previous_song" onclick="playPreviousSong()">
+                <img src="icon/skip_previous_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            </div>
+            <div class="control_song" onclick="togglePlayPause()">
+                <img src="icon/play_arrow_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            </div>                        
+            <div class="next_song" onclick="playNextSong()">
+                <img src="icon/skip_next_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+            </div>
+            <div class="sound" onclick="toggleVolumeSlider()">
+                <img src="icon/volume_up_48dp_FILL0_wght400_GRAD0_opsz48.png" alt="">
+                <!-- 세로 볼륨 슬라이더 추가 -->
+                <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1" style="display:none;"
+                    onchange="setVolume(this.value)">
+            </div>
+        </div>
+        <div class="music_list">
+            <ul id="song-list">
+                <!-- 노래 목록이 여기에 추가됩니다. -->
+            </ul>
+        </div>
+    </div>
+
+    <audio id="audio"></audio>
+
+    <script src="js/function.js">
+    </script>
+</body>
+
+</html>

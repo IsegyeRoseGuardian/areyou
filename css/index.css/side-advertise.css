@@ -26,14 +26,3 @@
 #ad1-QR:hover img{
     transform: translate(643px, 165px) scale(10);
 }
-
-#ad2{
-    float: left;
-    margin-top: 550px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 200px;
-    height: 350px;
-    position: fixed;
-    border: 2px  solid black;
-}

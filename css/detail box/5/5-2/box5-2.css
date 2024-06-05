@@ -1,7 +1,7 @@
 #box5-2 {
     margin-top: 3%;
     width: auto;
-    height: 850px;
+    height: auto;
 }
 
 #main-text5-2 {
@@ -11,47 +11,97 @@
 }
 
 #main-text5-2-line {
-    margin-top: 1.5%;
+    margin-bottom: 0.6%;
 }
 
-#main-text5-2 table {
+/* #gallery-RU img {
+    width: 227px;
+    height: 240px;
     border: 2px solid;
-    margin-top: 3%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-    height: 600px;
+} */
+
+#gallery-RU {
+    display: flex;
+    gap: 10px;
 }
 
-.schedule{
-    font-size: 30px;
-    padding: 0.4%;
-    color: white;
+#gallery-RU .gallery-container-RU {
+    position: relative;
+    border: 2px solid;
+    width: 235px;
+    height: 240px;
+}
+
+#gallery-RU .gallery-container-RU-long {
+    position: relative;
+    border: 2px solid;
+    width: 235px;
+    height: 330px;
+}
+
+#gallery-RU .gallery-container-RU img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+#gallery-RU .gallery-container-RU-long img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+#gallery-RU .gallery-container-RU img:hover {
+    filter: blur(5px);
+}
+
+#gallery-RU .gallery-container-RU-long img:hover {
+    filter: blur(5px);
+}
+
+#gallery-RU .gallery-container-RU .gallery-text-RU {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s ease;
+    font-size: 22px;
+    text-align: center;
     font-weight: bold;
-    text-align: center;
-    background-color: rgb(36, 36, 129);
+    -webkit-text-stroke: 0.6px white;
+    /* text-shadow: -2px 0px white, 0px 2px white, 0px -1px white; */
 }
 
-.off {
-    font-size: 23px;
-    padding: 0.4%;
-    text-align: center;
-    background-color: rgba(255, 0, 0, 0.558);
-    font-weight: 700;
+#gallery-RU .gallery-container-RU img:hover+.gallery-text-RU {
+    opacity: 1;
 }
 
-.on {
-    font-size: 26px;
-    padding: 0.4%;
-    text-align: center;
-    background-color: rgba(0, 0, 255, 0.558);
-    font-weight: 700;
+#main-text5-2 details>summary {
+    background: rgb(36, 36, 129);
+    padding: 1rem;
+    margin-bottom: 1%;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s;
+    color: white;
 }
 
-.undefined {
-    font-size: 26px;
-    padding: 0.4%;
+#gallery-RU .gallery-container-RU-long .gallery-text-RU {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s ease;
+    font-size: 22px;
     text-align: center;
-    background-color: rgba(119, 0, 255, 0.558);
-    font-weight: 700;
+    font-weight: bold;
+    -webkit-text-stroke: 0.6px white;
+    /* text-shadow: -2px 0px white, 0px 2px white, 0px -1px white; */
+}
+
+#gallery-RU .gallery-container-RU-long img:hover+.gallery-text-RU {
+    opacity: 1;
 }

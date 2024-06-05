@@ -1,0 +1,82 @@
+.control_box .mix {
+    width: 53px;
+    height: 53px;
+    border: 2px solid;
+    margin: auto;
+    background-color: transparent;
+}
+
+.control_box .mix img {
+    width: 100%;
+    height: 100%;
+}
+
+.control_box .previous_song {
+    width: 53px;
+    height: 53px;
+    border: 2px solid;
+    margin: auto;
+    background-color: transparent;
+}
+
+.control_box .previous_song img {
+    width: 100%;
+    height: 100%;
+}
+
+.control_box .control_song {
+    width: 53px;
+    height: 53px;
+    border: 2px solid;
+    margin: auto;
+    background-color: transparent;
+}
+
+.control_box .control_song img {
+    width: 100%;
+    height: 100%;
+}
+
+.control_box .next_song {
+    width: 53px;
+    height: 53px;
+    border: 2px solid;
+    margin: auto;
+    background-color: transparent;
+}
+
+.control_box .next_song img {
+    width: 100%;
+    height: 100%;
+}
+
+.control_box .sound {
+    width: 53px;
+    height: 53px;
+    border: 2px solid;
+    margin: auto;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+.control_box #volume-slider {
+    -webkit-appearance: slider-vertical;
+    /* 크롬, 사파리에서 세로 슬라이더 스타일 적용 */
+    width: 8px;
+    /* 슬라이더의 두께 */
+    height: 100px;
+    /* 슬라이더의 길이 */
+    position: absolute;
+    right: 20px;
+    /* 볼륨 아이콘과의 가로 거리 조정 */
+    bottom: 52px;
+    /* 볼륨 아이콘과의 세로 거리 조정 */
+    writing-mode: bt-lr;
+    /* IE에서 세로 슬라이더를 위한 스타일 */
+}
+
+.control_box .sound img {
+    width: 100%;
+    height: 100%;
+}
