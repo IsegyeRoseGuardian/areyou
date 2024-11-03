@@ -1,0 +1,9 @@
+#box1 {
+    width: auto;
+    height: auto;
+    border: 2px solid;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(177, 177, 177);
+}
